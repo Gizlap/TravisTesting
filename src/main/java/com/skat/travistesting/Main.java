@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         TraMath math = new TraMath();
 
-        System.out.println(String.format("Hallo user {0}", math.firstNumber()));
+        System.out.println(String.format("Hallo user - {0} and {1}", math.firstNumber(), math.secondNumber()));
     }
 
 

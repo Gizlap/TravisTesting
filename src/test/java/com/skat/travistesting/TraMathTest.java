@@ -1,0 +1,33 @@
+package test.java.com.skat.travistesting;
+
+import main.java.com.skat.travistesting.TraMath;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * Created by Christian Palsig on 21-07-2017.
+ */
+class TraMathTest {
+    TraMath math;
+
+    @org.junit.jupiter.api.BeforeEach
+    void setUp() {
+        math = new TraMath();
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void tearDown() {
+        math = null;
+    }
+
+    @org.junit.jupiter.api.Test
+    void firstNumber() {
+        assertEquals(math.firstNumber(), 3);
+    }
+
+    @org.junit.jupiter.api.Test
+    void secondNumber() {
+        assertEquals(math.secondNumber(), 34);
+    }
+
+}

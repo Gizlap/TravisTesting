@@ -4,11 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println(String.format("Hallo user {0}", Main.number()));
-    }
+        TraMath math = new TraMath();
 
-    private static int number() {
-        return 1+2;
+        System.out.println(String.format("Hallo user {0}", math.firstNumber()));
     }
 
 

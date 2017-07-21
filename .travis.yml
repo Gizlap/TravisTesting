@@ -1,4 +1,5 @@
 language: java
+install: ant deps
 jvm:
  - 1.7
  - 1.8

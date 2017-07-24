@@ -30,4 +30,10 @@ class TraMathTest {
         assertEquals(math.secondNumber(), 34);
     }
 
+    @org.junit.jupiter.api.Test
+    void testOneHigher() {
+        assertEquals(math.oneHigher(-1), 0);
+        assertEquals(math.oneHigher(0), 1);
+    }
+
 }

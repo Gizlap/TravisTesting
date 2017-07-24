@@ -13,5 +13,9 @@ public class TraMath {
     public int secondNumber() {
         return 7+8+9+10;
     }
+
+    public int oneHigher(int i){
+        return i+1;
+    }
 }
 

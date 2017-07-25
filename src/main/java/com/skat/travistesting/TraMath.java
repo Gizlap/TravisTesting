@@ -1,4 +1,4 @@
-package main.java.com.skat.travistesting;
+package com.skat.travistesting;
 
 /**
  * Created by Christian Palsig on 21-07-2017.

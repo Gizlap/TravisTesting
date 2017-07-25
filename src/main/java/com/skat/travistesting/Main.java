@@ -1,4 +1,4 @@
-package main.java.com.skat.travistesting;
+package com.skat.travistesting;
 
 public class Main {
 

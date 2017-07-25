@@ -1,6 +1,4 @@
-package test.java.com.skat.travistesting;
-
-import main.java.com.skat.travistesting.TraMath;
+package com.skat.travistesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 
